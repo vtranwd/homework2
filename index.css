@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-.friend {
+.friend-card {
   display: flex;
   background-color: rgb(236, 236, 241);
   margin: 5px 0 0 0;
@@ -30,14 +30,16 @@ body {
   border-radius: 8px;
 }
 
-.friend img {
+.friend-card img {
   width: 70px;
   padding: 10px;
 }
 
 /* TODO: HAVE THE NEWLY CREATED AGE COLUMN TO BE VERTICALLY ALIGNED */
 .name,
-.mood {
+.mood,
+.age,
+.hideShowButton {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
